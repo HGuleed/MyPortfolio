@@ -1,0 +1,20 @@
+* {
+    border: 1px solid red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+/* Header section */
+
+header{
+    display: flex;
+    
+   
+}
+
+nav {
+   display: flex ;
+   display: inline;
+  justify-content:flex-start;
+  padding: 5px;
+}
