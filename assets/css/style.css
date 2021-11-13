@@ -74,41 +74,68 @@ main {
 #experience {
   display: flex;
   flex-direction: column;
-  height: 200px;
+  height: 600px;
   border: 2px solid black;
 }
-/*  skills  section */
-.skills {
-  border: 2px solid brown;
-}
-/*  contact  section */
 
-.contacts {
-  background-color: var(--violet-color);
-}
 
 .project1 {
   border: 2px solid pink;
-  height: 10px;
+  height: 300px;
   margin: 5px;
+  background-image: url(../images/Runbuddy.jpeg)
 }
 .topBox {
     display: flex;
   border: 2px solid black;
- 
+ height: 150px;
   margin: 5px;
+
 }
 .bottomBox {
     display: flex;
   border: 2px solid blue;
-
+height: 150px;
   margin: 5px;
+
 }
 .project2,
 .project3,
 .project4,
 .project5 {
   border: 2px solid purple;
-
+  padding: 0px;
+    display: flex;
   margin: 5px;
+  flex-basis: 50%;
 }
+
+.project2 {
+    background-image: url(../images/project1.jpeg);
+    background-size: cover;
+}
+
+.project3 {
+    background-image: url(../images/project2.jpeg);
+    background-size: cover;
+}
+
+.project4 {
+    background-image: url(../images/project3.jpeg);
+    background-size: cover;
+}
+
+.project5 {
+    background-image: url(../images/project4.jpeg);
+    background-size: cover;
+}
+
+/*  skills  section */
+.skills {
+    border: 2px solid brown;
+  }
+  /*  contact  section */
+  
+  .contacts {
+    background-color: var(--violet-color);
+  }
