@@ -20,7 +20,7 @@ header {
   display: flex;
   border: 2px solid red;
   background-color: var(--orchid-color);
-  flex-wrap:wrap;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-content: center;
 }
@@ -32,7 +32,7 @@ header h1 {
   border: 2px solid blue;
   font-weight: bold;
   margin: 0;
-  font-size: 36px;
+  font-size: 72px;
 }
 header nav {
   display: flex;
@@ -63,13 +63,47 @@ main {
   background-color: var(--orchid-color);
 }
 /*  about me  section */
+.aboutMe {
+  border: 2px solid green;
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+}
+
+.aboutMe h1 {
+  font:75px;
+}
+.aboutMe div {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  height: 350px;
+  justify-content: space-evenly;
+  
+}
+.aboutMe  img {
+  display: flex;
+  
+  height:320px;
+  width: 240px;
+
+}
+.aboutMe p {
+  display: flex;
+  flex-basis: 70%;
+  font-size: 28px;
+}
 
 /*  experience  section*/
-#experience {
+.experience {
   display: flex;
   flex-direction: column;
   height: 1000px;
   border: 2px solid black;
+}
+
+.experience h1 {
+  font-size: larger;
 }
 
 .project1 {
@@ -104,24 +138,28 @@ main {
 }
 
 .project2 {
+  margin: 10px;
   background-image: url(../images/project1.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project3 {
+  margin: 10px;
   background-image: url(../images/project2.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project4 {
+  margin: 10px;
   background-image: url(../images/project3.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project5 {
+  margin: 10px;
   background-image: url(../images/project4.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
