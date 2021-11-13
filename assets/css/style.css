@@ -1,9 +1,9 @@
-:root {
+/*:root {
   --orchid-color: #7e3680;
   --cream-color: #efe1e8;
   --indigo-color: #420264;
   --violet-color: #a654df;
-}
+}*/
 
 * {
   margin: 10px;
@@ -14,26 +14,19 @@
   padding: 0px;
 }
 
-body {
-}
-
 /* Header section */
 
 header {
-  padding: 15px 30px;
   display: flex;
   border: 2px solid red;
   background-color: var(--orchid-color);
+  flex-wrap:wrap;
   justify-content: space-between;
-  flex-wrap: wrap;
-  position: sticky;
-}
-img {
-  width: 30px;
-  height: 40px;
+  align-content: center;
 }
 
 header h1 {
+  display: flex;
   font-size: 60px;
   font-family: cursive;
   border: 2px solid blue;
@@ -42,6 +35,7 @@ header h1 {
   font-size: 36px;
 }
 header nav {
+  display: flex;
   padding: 10px;
   align-items: flex-end;
   display: flex;
@@ -82,7 +76,8 @@ main {
   border: 2px solid pink;
   height: 500px;
   margin: 5px;
-  background-image: url(../images/Runbuddy.jpeg);
+  background-image: url(../images/project0.png);
+  background-size: cover;
 }
 .topBox {
   display: flex;
@@ -110,26 +105,25 @@ main {
 
 .project2 {
   background-image: url(../images/project1.jpeg);
-  background-size: auto 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  
 }
 
 .project3 {
   background-image: url(../images/project2.jpeg);
-  background-size: auto 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project4 {
   background-image: url(../images/project3.jpeg);
-  background-size: auto 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
 .project5 {
   background-image: url(../images/project4.jpeg);
-  background-size: auto 100%;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -139,6 +133,27 @@ main {
 }
 /*  contact  section */
 
-.contacts {
+.contact {
+  display: flex;
   background-color: var(--violet-color);
+  flex-wrap: wrap;
+}
+.contact h2 {
+  margin-right: 10px;
+  padding: 5px 15px 5px 0px;
+}
+.contact address {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contact address a {
+  padding: 10px;
+  text-orientation: none;
+  font-size: 20px;
+  font-style: normal;
+  margin: 5px;
+  display: inline-block;
 }
