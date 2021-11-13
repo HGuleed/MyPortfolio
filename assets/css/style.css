@@ -74,30 +74,28 @@ main {
 #experience {
   display: flex;
   flex-direction: column;
-  height: 600px;
+  height: 1000px;
   border: 2px solid black;
 }
-
 
 .project1 {
   border: 2px solid pink;
-  height: 300px;
+  height: 500px;
   margin: 5px;
-  background-image: url(../images/Runbuddy.jpeg)
+  background-image: url(../images/Runbuddy.jpeg);
 }
 .topBox {
-    display: flex;
+  display: flex;
   border: 2px solid black;
- height: 150px;
+  height: 250px;
   margin: 5px;
-
 }
 .bottomBox {
-    display: flex;
+  display: flex;
   border: 2px solid blue;
-height: 150px;
+  height: 250px;
   margin: 5px;
-
+  background-size: auto 100%;
 }
 .project2,
 .project3,
@@ -105,37 +103,42 @@ height: 150px;
 .project5 {
   border: 2px solid purple;
   padding: 0px;
-    display: flex;
+  display: flex;
   margin: 5px;
   flex-basis: 50%;
 }
 
 .project2 {
-    background-image: url(../images/project1.jpeg);
-    background-size: cover;
+  background-image: url(../images/project1.jpeg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  
 }
 
 .project3 {
-    background-image: url(../images/project2.jpeg);
-    background-size: cover;
+  background-image: url(../images/project2.jpeg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 }
 
 .project4 {
-    background-image: url(../images/project3.jpeg);
-    background-size: cover;
+  background-image: url(../images/project3.jpeg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 }
 
 .project5 {
-    background-image: url(../images/project4.jpeg);
-    background-size: cover;
+  background-image: url(../images/project4.jpeg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
 }
 
 /*  skills  section */
 .skills {
-    border: 2px solid brown;
-  }
-  /*  contact  section */
-  
-  .contacts {
-    background-color: var(--violet-color);
-  }
+  border: 2px solid brown;
+}
+/*  contact  section */
+
+.contacts {
+  background-color: var(--violet-color);
+}
