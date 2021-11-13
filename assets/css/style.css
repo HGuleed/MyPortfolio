@@ -1,0 +1,114 @@
+:root {
+  --orchid-color: #7e3680;
+  --cream-color: #efe1e8;
+  --indigo-color: #420264;
+  --violet-color: #a654df;
+}
+
+* {
+  margin: 10px;
+  box-sizing: border-box;
+  background-color: var(--cream-color);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: var(--indigo-color);
+  padding: 0px;
+}
+
+body {
+}
+
+/* Header section */
+
+header {
+  padding: 15px 30px;
+  display: flex;
+  border: 2px solid red;
+  background-color: var(--orchid-color);
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: sticky;
+}
+img {
+  width: 30px;
+  height: 40px;
+}
+
+header h1 {
+  font-size: 60px;
+  font-family: cursive;
+  border: 2px solid blue;
+  font-weight: bold;
+  margin: 0;
+  font-size: 36px;
+}
+header nav {
+  padding: 10px;
+  align-items: flex-end;
+  display: flex;
+  border: 2px solid green;
+  margin-left: 250px;
+}
+header nav ul {
+  border: 2px solid yellow;
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+}
+
+header nav ul a {
+  padding: 10px 15px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+main {
+  border: 2px solid #1bf2f2;
+  background-color: var(--orchid-color);
+}
+/*  about me  section */
+
+/*  experience  section*/
+#experience {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  border: 2px solid black;
+}
+/*  skills  section */
+.skills {
+  border: 2px solid brown;
+}
+/*  contact  section */
+
+.contacts {
+  background-color: var(--violet-color);
+}
+
+.project1 {
+  border: 2px solid pink;
+  height: 10px;
+  margin: 5px;
+}
+.topBox {
+    display: flex;
+  border: 2px solid black;
+ 
+  margin: 5px;
+}
+.bottomBox {
+    display: flex;
+  border: 2px solid blue;
+
+  margin: 5px;
+}
+.project2,
+.project3,
+.project4,
+.project5 {
+  border: 2px solid purple;
+
+  margin: 5px;
+}

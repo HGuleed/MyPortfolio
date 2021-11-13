@@ -1,21 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Hodan Guleed's Portfolio</title>
-</head>
-<body>
-    <header> <h1>Guleed, Hodan</h1></header>
-    <nav>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!--Header Section-->
+    <header>
+      <h1>Guleed, Hodan</h1>
+
+      <nav>
         <ul>
-            <li>about ME</li>
-            <li>Experience</li>
-            <li>Contact Me</li>
+          <li>
+            <a href="#aboutMe"> about ME </a>
+          </li>
+          <li>
+            <a href="#experience"> Experience</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#contact">Contact Me</a>
+          </li>
         </ul>
-    </nav>
-    <section>
+      </nav>
+    </header>
+    <main>
+      <!--About me section-->
+      <section id="aboutMe" class="aboutMe">
         <h2>about ME</h2>
-        <p>I was born in 1996 in Abu Dhabi, UAE to immigrant parents who came from Somalia. When I was between the ages of three and four we moved to the United States. Originally we settled down in Charlotte, North Carolina after a couple of years we relocated to Columbus, Ohio and we have lived here ever since. The majority of my schooling was done in the South Western city school district. I attended Westland High School and graduated with a fairly high GPA. Once I graduated I got accepted into The Ohio State University, specifically into their engineering program, with the goal of becoming a chemical engineer. I did not end up attending OSU because I had a change of heart about what I wanted to do with my future at that time. Over the years I have applied and been accepted to many colleges, but always ended up getting cold feet over the major. I am so happy to say I found my passion for coding and can’t wait to be able to start my future as a programmer.</p>
-    </section>
-</body>
+        <p>
+          I was born in 1996 in Abu Dhabi, UAE to immigrant parents who came
+          from Somalia. When I was between the ages of three and four we moved
+          to the United States. Originally we settled down in Charlotte, North
+          Carolina after a couple of years we relocated to Columbus, Ohio and we
+          have lived here ever since. The majority of my schooling was done in
+          the South Western city school district. I attended Westland High
+          School and graduated with a fairly high GPA. Once I graduated I got
+          accepted into The Ohio State University, specifically into their
+          engineering program, with the goal of becoming a chemical engineer. I
+          did not end up attending OSU because I had a change of heart about
+          what I wanted to do with my future at that time. Over the years I have
+          applied and been accepted to many colleges, but always ended up
+          getting cold feet over the major. I am so happy to say I found my
+          passion for coding and can’t wait to be able to start my future as a
+          programmer.
+        </p>
+      </section>
+
+       <!--Skills section-->
+       <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>
+            HTML <br />
+            <progress max="100" value="75"></progress>
+          </li>
+          <li>
+            CSS <br />
+            <progress max="100" value="50"></progress>
+          </li>
+          <li>
+            JavaScript <br />
+            <progress max="100" value="10"></progress>
+          </li>
+        </ul>
+      </section>
+
+      <!--Experience section-->
+      <section id="experience" >
+        <h2>Experience</h2>
+            <div class="project1"></div>
+            <div class="topBox">
+                <div class="project2"></div>
+                <div class="project3"></div>
+            </div>
+            <div class="bottomBox">
+                <div class="project4"></div>
+                <div class="project5"></div>
+
+            </div>
+      </section>
+
+      
+
+      <!--Contact section-->
+
+      <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+          <input name="name" placeholder="Name" type="text" required /><br />
+          <input name="phone" placeholder="Phone Number" type="number" /><br />
+          <input name="email" placeholder="Email" type="email" required /><br />
+          <textarea name="message" placeholder="Message" required></textarea>
+          <input type="submit" value="SEND" class="submit" />
+        </form>
+
+        <h3>Follow me on LinkedIn</h3>
+      </section>
+    </main>
+  </body>
 </html>
