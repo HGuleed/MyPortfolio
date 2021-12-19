@@ -99,7 +99,6 @@ div section h1 {
 .aboutMe h1 {
   font: 75px;
   flex-basis: 90%;
-  
 }
 
 .aboutMe div p {
@@ -120,8 +119,12 @@ div section h1 {
 .projects {
   flex-basis: 60%;
 }
-.project1 {
+.project0 {
   height: 500px;
+  background-image: url(../images/Meal\ Express.png);
+  background-size: cover;
+}
+.project1 {
   margin: 5px;
   background-image: url(../images/project0.png);
   background-size: cover;

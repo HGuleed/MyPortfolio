@@ -1,0 +1,44 @@
+:root {
+  --orchid-color: #7e3680;
+  --cream-color: #efe1e8;
+  --indigo-color: #420264;
+  --violet-color: #a654df;
+  --deep-color: #3c1a3d;
+}
+* {
+  box-sizing: border-box;
+  background-color: var(--cream-color);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: var(--indigo-color);
+}
+/* styling for header */
+
+header {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-size: cover;
+}
+header h1 {
+  border: 2px solid orange;
+  display: flex;
+
+  background-color: var(--orchid-color);
+  font-size: 55px;
+  flex-basis: 29%;
+}
+header nav {
+  border: 2px solid yellow;
+  width: 40%;
+}
+header nav ul {
+  border: 2px solid blue;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+header nav ul li {
+  border: 2px solid green;
+}
